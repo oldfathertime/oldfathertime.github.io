@@ -50,28 +50,31 @@
   };
 </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="打禅苦修">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;index.html">
+  <meta name="description" content="根据这四个步骤大概可以解决您的问题： 第一步：使用Mysql管理员帐号通过phpmyadmin登陆，然后点击“导入”，然后点击“浏览”按钮，找到phpmyadmin&#x2F;examples&#x2F;create_tables.sql 文件。把它导入就OK了。 第二步：打开phpmyadmin文件夹下的“config.sample.inc.php”文件并复制，重命名为“config.inc.php”，（如果已经">
+<meta property="og:type" content="article">
+<meta property="og:title" content="phpmyadmin部分功能未激活是什么原因？">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;23&#x2F;phpmyadmin_error&#x2F;index.html">
 <meta property="og:site_name" content="打禅苦修">
+<meta property="og:description" content="根据这四个步骤大概可以解决您的问题： 第一步：使用Mysql管理员帐号通过phpmyadmin登陆，然后点击“导入”，然后点击“浏览”按钮，找到phpmyadmin&#x2F;examples&#x2F;create_tables.sql 文件。把它导入就OK了。 第二步：打开phpmyadmin文件夹下的“config.sample.inc.php”文件并复制，重命名为“config.inc.php”，（如果已经">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-11-23T03:25:27.778Z">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://yoursite.com/">
+<link rel="canonical" href="http://yoursite.com/2019/11/23/phpmyadmin_error/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome: true,
-    isPost: false,
+    isHome: false,
+    isPost: true,
     isPage: false,
     isArchive: false
   };
 </script>
 
-  <title>打禅苦修</title>
+  <title>phpmyadmin部分功能未激活是什么原因？ | 打禅苦修</title>
   
 
 
@@ -168,10 +171,10 @@
             
 
   <div class="posts-expand">
-        
+      
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/23/phpmyadmin_error/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -185,8 +188,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/11/23/phpmyadmin_error/" class="post-title-link" itemprop="url">phpmyadmin部分功能未激活是什么原因？</a>
+          phpmyadmin部分功能未激活是什么原因？
         </h1>
 
         <div class="post-meta">
@@ -210,7 +212,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <p> 根据这四个步骤大概可以解决您的问题：</p>
+        <p> 根据这四个步骤大概可以解决您的问题：</p>
 <h3 id="第一步："><a href="#第一步：" class="headerlink" title="第一步："></a>第一步：</h3><p>使用Mysql管理员帐号通过phpmyadmin登陆，然后点击“导入”，然后点击“浏览”按钮，找到phpmyadmin/examples/create_tables.sql 文件。把它导入就OK了。</p>
 <h3 id="第二步："><a href="#第二步：" class="headerlink" title="第二步："></a>第二步：</h3><p>打开phpmyadmin文件夹下的“config.sample.inc.php”文件并复制，重命名为“config.inc.php”，（如果已经有“config.inc.php”文件，直接修改即可），使用文本编辑工具打开该文件。对其进行修改。</p>
 <h3 id="第三步："><a href="#第三步：" class="headerlink" title="第三步："></a>第三步：</h3><p>分别修改下面选项为：</p>
@@ -218,24 +220,24 @@
 
 <h3 id="第四步："><a href="#第四步：" class="headerlink" title="第四步："></a>第四步：</h3><p>退出phpmyadmin,然后并重新登录。你会看到提示已经消失，至此，问题解决完毕。</p>
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
+
+        
+
       </footer>
+    
   </article>
   
   
   
 
   </div>
-
-  
-
 
 
           </div>
@@ -264,6 +266,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#第一步："><span class="nav-number">1.</span> <span class="nav-text">第一步：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第二步："><span class="nav-number">2.</span> <span class="nav-text">第二步：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第三步："><span class="nav-number">3.</span> <span class="nav-text">第三步：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第四步："><span class="nav-number">4.</span> <span class="nav-text">第四步：</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
